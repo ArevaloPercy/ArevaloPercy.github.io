@@ -1,0 +1,131 @@
+
+/*Barra de navegación*/
+.barra {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(51,51,51);
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+}
+.barra nav {
+    display: flex;
+}
+.barra nav ul {
+    display: flex;
+    list-style: none;
+}
+.barra a{
+    text-decoration: none;
+    color:white;
+}
+.barra, .left, .right{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 30px;
+}
+.left {
+    font-size: 25px;
+}
+.barra, .right {
+    font-size:15px;
+    align-items: center;
+    justify-content: center;
+}
+.cerrar {
+    background-color: rgb(3,187,212);
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*Cuerpo*/
+.padre1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.contenedor1 {
+    width: 44%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.bloque1 {
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px;
+}
+.celeste {
+    background-color: rgb(0,188,213);
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.primero {
+    width:35%;
+    height: 150px;
+    max-height: auto;
+    position: relative;
+    top: -60px;
+    border-radius: 100%;
+    left:10px;
+    border:5px solid white
+}
+.texto {
+    margin-top: -44px;
+}
+.bloque2 {
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px;
+}
+.contenedor2 {
+    width: 44%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.bloque3 {
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px;
+}
+.bloque4 {
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px;
+    padding-bottom: 3px;
+    align-items: center;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 20px;
+}
+
+.tercero {
+    width: 20%;
+    height: 60px;
+    border-radius: 100%;
+}
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px;
+    padding: 23px 20px ;
+}
+.segundo {
+    width: 20%;
+    height: 60px;
+    border-radius: 20%;
+    border:2px solid rgb(3,187,212);
+}
+
+
+
+
+
+
+
+
+
